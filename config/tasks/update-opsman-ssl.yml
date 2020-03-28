@@ -12,4 +12,4 @@ run:
   - |
     set -eu
     cat /var/version && echo ""
-    om --env env/"${ENV_FILE}" update-ssl-certificate --certificate-pem="((domain-crt))" --private-key-pem="((domain-key))"
+#    om --env env/"${ENV_FILE}" update-ssl-certificate --certificate-pem="((domain-crt))" --private-key-pem="((domain-key))"
