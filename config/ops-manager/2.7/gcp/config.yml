@@ -77,7 +77,7 @@ properties-configuration:
     default_deployment_tag: ((subdomain-name))
     auth_json: ((gcp-credentials))
   security_configuration:
-    trusted_certificates: 
+    trusted_certificates: ((domain-crt))
     generate_vm_passwords: true
     opsmanager_root_ca_trusted_certs: false
 resource-configuration:
