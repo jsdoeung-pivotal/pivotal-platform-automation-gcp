@@ -47,13 +47,7 @@ product-properties:
   .properties.vm_extensions:
     value:
     - public_ip
-  .properties.telemetry_installation_purpose_selector:
-    selected_option: dev_or_pre_prod
-    value: dev_or_pre_prod
   .properties.telemetry_selector:
-    selected_option: disabled
-    value: disabled
-    .properties.telemetry_selector:
     value: disabled
 errand-config:
   upgrade-all-service-instances:
