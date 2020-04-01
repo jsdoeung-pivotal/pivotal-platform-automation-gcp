@@ -34,6 +34,22 @@ product-properties:
     value:
       cert_pem: ((domain-crt))
       private_key_pem: ((domain-key))
+  .properties.credhub_database:
+    selected_option: internal_mysql
+    value: internal_mysql
+  .properties.credhub_hsm_provider_client_certificate:
+    value:
+      cert_pem:
+      private_key_pem:
+  .properties.credhub_hsm_provider_partition_password:
+    value:
+      secret:
+  .properties.credhub_internal_provider_keys:
+    value:
+    - key:
+        secret: ((om-password))
+      name: default
+      primary: true
   .mysql_monitor.recipient_email:
     value: anyone@someone.com
 errand-config:
