@@ -13,8 +13,6 @@ product-properties:
     value: sys.((subdomain-name)).((domain-name))
   .cloud_controller.apps_domain:
     value: apps.((subdomain-name)).((domain-name))
-  .properties.stack_migration_acknowledgement  :
-    value: X
   .properties.networking_poe_ssl_certs:
     value:
     - name: certificate
